@@ -1,0 +1,6 @@
+/* Fuck you Elon Musk. */
+
+/* 左欄のスクロールバーを表示しないように変更 */
+#react-root > div > div > div.css-1dbjc4n.r-18u37iz.r-13qz1uu.r-417010 > header > div > div > div > div.r-1rnoaur {
+  overflow-y: visible;
+}

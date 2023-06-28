@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Twitterにて、左欄のスクロールバーを非表示にする",
+  "version": "1.1.0.0",
+  "description": "Twitterにて、左欄のスクロールバーを非表示にする",
+  "content_scripts": [{
+    "matches": ["https://twitter.com/*"],
+    "css": ["blockScrollbar.css"]
+  }]
+}
